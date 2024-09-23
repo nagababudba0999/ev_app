@@ -23,8 +23,8 @@ To set up the project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/gitam-transportation-system.git
-   cd gitam-transportation-system
+   git clone https://github.com/nagababudba0999/ev_app.git
+   cd ev_app
 
 ### Update database settings in `config.py`
 Before running the application, you need to update the `config.py` file with your database details. 
