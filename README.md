@@ -25,6 +25,9 @@ To set up the project locally, follow these steps:
    ```bash
    git clone https://github.com/nagababudba0999/ev_app.git
    cd ev_app
+   sudo yum install  pip -y 
+   pip install flask
+   pip install pymysql
 
 ### Update database settings in `config.py`
 Before running the application, you need to update the `config.py` file with your database details. 
