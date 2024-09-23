@@ -29,10 +29,10 @@ To set up the project locally, follow these steps:
 ### Update database settings in `config.py`
 Before running the application, you need to update the `config.py` file with your database details. 
 
-   Modify the following fields with your MySQL database credentials:
-   class Config:
-       MYSQL_HOST = 'your_host'           # Replace with your MySQL host (e.g., 'localhost' or IP address)
-       MYSQL_USER = 'your_username'       # Replace with your MySQL username
-       MYSQL_PASSWORD = 'your_password'    # Replace with your MySQL password
-       MYSQL_DB = 'gitam_transportation_db'  # Keep this as is, or change to your desired database name
+Modify the following fields with your MySQL database credentials:
+class Config:
+  MYSQL_HOST = 'your_host'           # Replace with your MySQL host (e.g., 'localhost' or IP address)
+  MYSQL_USER = 'your_username'       # Replace with your MySQL username
+  MYSQL_PASSWORD = 'your_password'    # Replace with your MySQL password
+  MYSQL_DB = 'gitam_transportation_db'  # Keep this as is, or change to your desired database name
 
