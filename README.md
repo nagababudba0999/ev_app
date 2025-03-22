@@ -1,4 +1,4 @@
-# GITAM Transportation System
+# IITH Transportation System
 
 ## Overview
 
