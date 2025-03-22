@@ -1,6 +1,6 @@
-create database 'gitam_transportation_db';
+create database 'bus_ticketing_db';
 
-use 'gitam_transportation_db';
+use 'bus_ticketing_db';
 
 CREATE TABLE ev_buses (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -10,6 +10,16 @@ CREATE TABLE ev_buses (
     date DATE NOT NULL,
     total_seats INT NOT NULL,
     available_seats INT NOT NULL
+);
+
+CREATE TABLE bookings (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    bus_id INT NOT NULL,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    mobile_number VARCHAR(15) NOT NULL,
+    seats_booked INT NOT NULL,
+    booking_date DATE NOT NULL
 );
 
 
