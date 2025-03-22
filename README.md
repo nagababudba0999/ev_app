@@ -2,7 +2,7 @@
 
 ## Overview
 
-The GITAM Transportation System is a web application designed to help users find and book available buses efficiently. It offers a user-friendly interface for searching buses based on source and destination, and allows users to book their seats directly.
+The IITH Transportation System is a web application designed to help users find and book available buses efficiently. It offers a user-friendly interface for searching buses based on source and destination, and allows users to book their seats directly.
 
 ## Features
 
